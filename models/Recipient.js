@@ -1,5 +1,5 @@
-const mongoose = require('mongoose')
-const {Schema} = mongoose
+const mongoose = require('mongoose');
+const { Schema } = mongoose;
 
 const recipientSchema = new Schema({
   email: String,
@@ -7,6 +7,6 @@ const recipientSchema = new Schema({
     type: Boolean,
     default: false,
   },
-})
+});
 
-module.exports = recipientSchema
+module.exports = recipientSchema;
